@@ -1,0 +1,28 @@
+execute if score #t cs.v matches 600 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросит","color":"white"}]
+execute if score #t cs.v matches 601 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить","color":"white"}]
+execute if score #t cs.v matches 601 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.658
+execute if score #t cs.v matches 601 run execute as @e[type=zombie,tag=cs.zombie,limit=1] at @s run tp @s ~ ~ ~ ~ 7
+execute if score #t cs.v matches 602 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить,","color":"white"}]
+execute if score #t cs.v matches 604 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, к","color":"white"}]
+execute if score #t cs.v matches 605 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, ка","color":"white"}]
+execute if score #t cs.v matches 605 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.563
+execute if score #t cs.v matches 606 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, как","color":"white"}]
+execute if score #t cs.v matches 608 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, как у","color":"white"}]
+execute if score #t cs.v matches 610 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, как у т","color":"white"}]
+execute if score #t cs.v matches 611 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, как у те","color":"white"}]
+execute if score #t cs.v matches 611 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.645
+execute if score #t cs.v matches 612 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, как у теб","color":"white"}]
+execute if score #t cs.v matches 613 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, как у тебя","color":"white"}]
+execute if score #t cs.v matches 613 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.543
+execute if score #t cs.v matches 613 run execute as @e[type=zombie,tag=cs.zombie,limit=1] at @s run tp @s ~ ~ ~ ~ 7
+execute if score #t cs.v matches 615 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, как у тебя д","color":"white"}]
+execute if score #t cs.v matches 615 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.566
+execute if score #t cs.v matches 616 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, как у тебя де","color":"white"}]
+execute if score #t cs.v matches 617 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, как у тебя дел","color":"white"}]
+execute if score #t cs.v matches 617 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.6
+execute if score #t cs.v matches 618 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, как у тебя дела","color":"white"}]
+execute if score #t cs.v matches 619 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, как у тебя дела.","color":"white"}]
+execute if score #t cs.v matches 619 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.632
+execute if score #t cs.v matches 619 run execute as @e[type=zombie,tag=cs.zombie,limit=1] at @s run tp @s ~ ~ ~ ~ -3
+execute if score #t cs.v matches 621 run execute as @e[type=zombie,tag=cs.zombie,limit=1] at @s run tp @s ~ ~ ~ ~ 0
+execute if score #t cs.v matches 639 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я не ломился. Я хотел спросить, как у тебя дела.","color":"white"}]

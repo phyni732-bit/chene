@@ -1,0 +1,10 @@
+execute if score #t cs.v matches 1320 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Житель","color":"gold","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Тогда давай построим что-нибудь длиннее н","color":"white"}]
+execute if score #t cs.v matches 1321 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Житель","color":"gold","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Тогда давай построим что-нибудь длиннее но","color":"white"}]
+execute if score #t cs.v matches 1321 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.wooden_button.click_on master @s ~ ~ ~ 0.3 1.547
+execute if score #t cs.v matches 1321 run execute as @e[type=villager,tag=cs.villager,limit=1] at @s run tp @s ~ ~ ~ ~ 7
+execute if score #t cs.v matches 1322 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Житель","color":"gold","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Тогда давай построим что-нибудь длиннее ноч","color":"white"}]
+execute if score #t cs.v matches 1323 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Житель","color":"gold","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Тогда давай построим что-нибудь длиннее ночи","color":"white"}]
+execute if score #t cs.v matches 1323 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.wooden_button.click_on master @s ~ ~ ~ 0.3 1.515
+execute if score #t cs.v matches 1324 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Житель","color":"gold","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Тогда давай построим что-нибудь длиннее ночи.","color":"white"}]
+execute if score #t cs.v matches 1326 run execute as @e[type=villager,tag=cs.villager,limit=1] at @s run tp @s ~ ~ ~ ~ 0
+execute if score #t cs.v matches 1344 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Житель","color":"gold","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Тогда давай построим что-нибудь длиннее ночи.","color":"white"}]

@@ -1,0 +1,90 @@
+execute if score #t cs.v matches 961 run data modify entity @e[type=item_display,tag=cs.cam,limit=1] teleport_duration set value 0
+execute if score #t cs.v matches 962 run scoreboard players set #ax cs.v 3600
+execute if score #t cs.v matches 962 run scoreboard players set #ay cs.v 900
+execute if score #t cs.v matches 962 run scoreboard players set #az cs.v 5500
+execute if score #t cs.v matches 962 run scoreboard players set #aw cs.v 16732
+execute if score #t cs.v matches 962 run scoreboard players set #ap cs.v -730
+execute if score #t cs.v matches 962 run scoreboard players set #bx cs.v 2400
+execute if score #t cs.v matches 962 run scoreboard players set #by cs.v 2800
+execute if score #t cs.v matches 962 run scoreboard players set #bz cs.v 3600
+execute if score #t cs.v matches 962 run scoreboard players set #bw cs.v 17034
+execute if score #t cs.v matches 962 run scoreboard players set #bp cs.v -717
+execute if score #t cs.v matches 962 run scoreboard players set #cn cs.v 203
+execute if score #t cs.v matches 962 run scoreboard players set #ct cs.v 0
+execute if score #t cs.v matches 962 run scoreboard players set #lin cs.v 1
+execute if score #t cs.v matches 962 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:entity.zombie.ambient master @s ~ ~ ~ 0.9 1
+execute if score #t cs.v matches 963 run data modify entity @e[type=item_display,tag=cs.cam,limit=1] teleport_duration set value 10
+execute if score #t cs.v matches 963 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А","color":"white"}]
+execute if score #t cs.v matches 965 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у","color":"white"}]
+execute if score #t cs.v matches 967 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у м","color":"white"}]
+execute if score #t cs.v matches 968 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у ме","color":"white"}]
+execute if score #t cs.v matches 968 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.638
+execute if score #t cs.v matches 968 run execute as @e[type=zombie,tag=cs.zombie,limit=1] at @s run tp @s ~ ~ ~ ~ 7
+execute if score #t cs.v matches 969 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у мен","color":"white"}]
+execute if score #t cs.v matches 970 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня","color":"white"}]
+execute if score #t cs.v matches 970 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.592
+execute if score #t cs.v matches 972 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня б","color":"white"}]
+execute if score #t cs.v matches 972 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.599
+execute if score #t cs.v matches 973 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня бы","color":"white"}]
+execute if score #t cs.v matches 974 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня был","color":"white"}]
+execute if score #t cs.v matches 974 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.64
+execute if score #t cs.v matches 974 run execute as @e[type=zombie,tag=cs.zombie,limit=1] at @s run tp @s ~ ~ ~ ~ -3
+execute if score #t cs.v matches 975 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была","color":"white"}]
+execute if score #t cs.v matches 976 run execute as @e[type=zombie,tag=cs.zombie,limit=1] at @s run tp @s ~ ~ ~ 180 -25
+execute if score #t cs.v matches 977 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была к","color":"white"}]
+execute if score #t cs.v matches 978 run summon minecraft:block_display ~-0.5 ~-1 ~-11 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 978 run summon minecraft:block_display ~-1.5 ~-1 ~-12 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:mossy_stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 978 run playsound minecraft:block.stone.place master @a[tag=cs.viewer] ~0 ~3 ~-11 4 0.7
+execute if score #t cs.v matches 978 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была ко","color":"white"}]
+execute if score #t cs.v matches 978 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.587
+execute if score #t cs.v matches 979 run summon minecraft:block_display ~-0.5 ~-1 ~-12 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 979 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была кол","color":"white"}]
+execute if score #t cs.v matches 980 run summon minecraft:block_display ~0.5 ~-1 ~-12 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 980 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была коло","color":"white"}]
+execute if score #t cs.v matches 980 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.601
+execute if score #t cs.v matches 980 run execute as @e[type=zombie,tag=cs.zombie,limit=1] at @s run tp @s ~ ~ ~ ~ 7
+execute if score #t cs.v matches 981 run summon minecraft:block_display ~0.5 ~-1 ~-11 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 981 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колок","color":"white"}]
+execute if score #t cs.v matches 982 run summon minecraft:block_display ~0.5 ~-1 ~-10 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 982 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колоко","color":"white"}]
+execute if score #t cs.v matches 982 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.623
+execute if score #t cs.v matches 983 run summon minecraft:block_display ~-0.5 ~-1 ~-10 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 983 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колокол","color":"white"}]
+execute if score #t cs.v matches 984 run summon minecraft:block_display ~-1.5 ~-1 ~-10 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:mossy_stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 984 run playsound minecraft:block.stone.place master @a[tag=cs.viewer] ~0 ~3 ~-11 4 0.75
+execute if score #t cs.v matches 984 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колоколь","color":"white"}]
+execute if score #t cs.v matches 984 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.658
+execute if score #t cs.v matches 985 run summon minecraft:block_display ~-1.5 ~-1 ~-11 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 985 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колокольн","color":"white"}]
+execute if score #t cs.v matches 986 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колокольня","color":"white"}]
+execute if score #t cs.v matches 986 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.581
+execute if score #t cs.v matches 986 run execute as @e[type=zombie,tag=cs.zombie,limit=1] at @s run tp @s ~ ~ ~ ~ -3
+execute if score #t cs.v matches 987 run summon minecraft:block_display ~-1.5 ~0 ~-12 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:cracked_stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 987 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колокольня.","color":"white"}]
+execute if score #t cs.v matches 988 run summon minecraft:block_display ~-0.5 ~0 ~-12 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 989 run summon minecraft:block_display ~0.5 ~0 ~-12 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 989 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колокольня. Я","color":"white"}]
+execute if score #t cs.v matches 990 run summon minecraft:block_display ~0.5 ~0 ~-11 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 990 run playsound minecraft:block.stone.place master @a[tag=cs.viewer] ~0 ~3 ~-11 4 0.8
+execute if score #t cs.v matches 991 run summon minecraft:block_display ~0.5 ~0 ~-10 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:cracked_stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 991 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колокольня. Я з","color":"white"}]
+execute if score #t cs.v matches 992 run summon minecraft:block_display ~-0.5 ~0 ~-10 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 992 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колокольня. Я зв","color":"white"}]
+execute if score #t cs.v matches 992 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.64
+execute if score #t cs.v matches 992 run execute as @e[type=zombie,tag=cs.zombie,limit=1] at @s run tp @s ~ ~ ~ ~ 7
+execute if score #t cs.v matches 993 run summon minecraft:block_display ~-1.5 ~0 ~-10 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 993 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колокольня. Я зво","color":"white"}]
+execute if score #t cs.v matches 994 run summon minecraft:block_display ~-1.5 ~0 ~-11 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 994 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колокольня. Я звон","color":"white"}]
+execute if score #t cs.v matches 994 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.625
+execute if score #t cs.v matches 995 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колокольня. Я звони","color":"white"}]
+execute if score #t cs.v matches 996 run summon minecraft:block_display ~-1.5 ~1 ~-12 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:cracked_stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 996 run playsound minecraft:block.stone.place master @a[tag=cs.viewer] ~0 ~3 ~-11 4 0.85
+execute if score #t cs.v matches 996 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колокольня. Я звонил","color":"white"}]
+execute if score #t cs.v matches 996 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.616
+execute if score #t cs.v matches 997 run summon minecraft:block_display ~-0.5 ~1 ~-12 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 998 run summon minecraft:block_display ~0.5 ~1 ~-12 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}
+execute if score #t cs.v matches 998 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"А у меня была колокольня. Я звонил в","color":"white"}]
+execute if score #t cs.v matches 998 run execute as @a[tag=cs.viewer] at @s run playsound minecraft:block.stone_button.click_on master @s ~ ~ ~ 0.3 0.589
+execute if score #t cs.v matches 998 run execute as @e[type=zombie,tag=cs.zombie,limit=1] at @s run tp @s ~ ~ ~ ~ -3
+execute if score #t cs.v matches 999 run summon minecraft:block_display ~0.5 ~1 ~-11 {Tags:["cs.e","cs.b","cs.grow","cs.g.tower"],view_range:4f,block_state:{Name:"minecraft:stone_bricks"},transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-3f,0.5f],scale:[0.01f,0.01f,0.01f]}}

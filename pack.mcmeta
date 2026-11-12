@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "description": "Катсцена «Дверь» — /function cutscene:start",
+    "pack_format": 48,
+    "supported_formats": [48, 130],
+    "min_format": 48,
+    "max_format": 130
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay_legacy",
+        "formats": [48, 94],
+        "min_format": 48,
+        "max_format": 94
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+execute if score #t cs.v matches 440 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я всегда здесь. Каждую ночь. Триста лет подряд.","color":"white"}]
+execute if score #t cs.v matches 442 run execute as @e[type=zombie,tag=cs.zombie,limit=1] at @s run tp @s ~ ~ ~ ~ 0
+execute if score #t cs.v matches 460 run title @a[tag=cs.viewer] actionbar [{"text":""},{"text":"Зомби","color":"dark_green","bold":true},{"text":"  »  ","color":"dark_gray"},{"text":"Я всегда здесь. Каждую ночь. Триста лет подряд.","color":"white"}]
