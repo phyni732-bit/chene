@@ -478,6 +478,7 @@ execute unless entity @s[type=minecraft:player] run return run tellraw @a {{"tex
 execute store result score #diff cs.v run difficulty
 execute if score #diff cs.v matches 0 run return run tellraw @s {{"text":"На мирной сложности зомби исчезает. Поставь /difficulty easy и запусти снова.","color":"red"}}
 
+function {NS}:fx/remove_actors
 kill @e[tag=cs.e]
 kill @e[type=marker,tag=cs.return]
 tag @a remove cs.viewer
